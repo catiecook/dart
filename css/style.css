@@ -1,0 +1,110 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+/*LOG IN PAGE*/
+#login {
+  background-color: aliceblue;
+}
+
+#login .card-panel {
+  margin: 25% 25%;
+}
+
+#login h3 {
+  font-variant: small-caps;
+  margin: 0;
+  padding: 0 0 2vw 0;
+  text-align: center;
+}
+
+#login .brand-logo {
+  font-variant: small-caps;
+  color: black;
+}
+
+#login-button {
+  margin-top: 2vw;
+}
+
+
+/*INDEX*/
+#index{
+  background-image: url(https://source.unsplash.com/2100x1200/?nature);
+}
+
+label {
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+}
+
+/*FORM*/
+#formPage {
+  background-image: url(https://source.unsplash.com/2100x1200/?nature);
+}
+
+.icon-block {
+  /*padding: 0 15px;*/
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#formPage label {
+  padding-right: 5px;
+}
+
+#logo-container img {
+  max-width: 50%;
+  padding-top: 1%;
+}
+
+nav .nav-wrapper {
+  margin-left: 3%;
+
+}
+nav .nav-wrapper ul{
+  margin-right: -32%;
+}
+
+.row {
+  padding-top: -3%;
+}
+
+.card-panel h4 {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 3em;
+  margin-top: -3%;
+}
+
+.card-panel{
+  margin-top: 0;
+}
+
+#results {
+  box-shadow: none;
+}
+
+#logo-container{
+  color: black;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.hide-on-med-and-down {
+  font-size: 2em;
+}
+
+.desitinationName {
+  padding-top: 1.2vw;
+  font-size: 1.5em;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-right: 5%;
+}
