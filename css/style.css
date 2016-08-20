@@ -46,18 +46,30 @@ label {
 
 /*FORM*/
 #formPage {
-  background-image: url(https://source.unsplash.com/2100x1200/?nature);
-}
-
-.icon-block {
-  /*padding: 0 15px;*/
-}
-.icon-block .material-icons {
-	font-size: inherit;
+  background-image: url(images/asanoha-400px.png);
+  background-repeat: repeat;
 }
 
 #formPage label {
   padding-right: 5px;
+}
+
+#formPage h5 {
+  font-variant: small-caps;
+  text-align: center;
+}
+
+#formPage h6 {
+  font-variant: small-caps;
+}
+
+#formPage .card-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  width: 50vmin;
+  height: auto;
 }
 
 #logo-container img {
@@ -84,10 +96,6 @@ nav .nav-wrapper ul{
   margin-top: -3%;
 }
 
-.card-panel{
-  margin-top: 0;
-}
-
 #results {
   box-shadow: none;
 }
@@ -107,4 +115,24 @@ nav .nav-wrapper ul{
   font-size: 1.5em;
   background-color: rgba(255, 255, 255, 0.9);
   margin-right: 5%;
+}
+
+.icon-block {
+  /*padding: 0 15px;*/
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
